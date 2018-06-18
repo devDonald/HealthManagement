@@ -15,31 +15,31 @@
             android:title="Malaria" />
         <item
             android:id="@+id/nav_typhoid"
-            android:icon="@drawable/typhoid"
+            android:icon="@drawable/ty"
             android:title="Typhoid" />
         <item
             android:id="@+id/nav_diabetes"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/diabetes"
             android:title="Diabetes" />
         <item
             android:id="@+id/nav_cancer"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/cancer"
             android:title="Cancer" />
         <item
             android:id="@+id/nav_std"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/std"
             android:title="Sexual Diseases" />
         <item
             android:id="@+id/nav_hbp"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/hbp"
             android:title="High Blood Pressure" />
         <item
             android:id="@+id/nav_meet_doctor"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/stethoscope"
             android:title="Meet a Doctor" />
         <item
             android:id="@+id/nav_meet_pharmacist"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/pharmacist"
             android:title="Meet a Pharmacist" />
         <item
             android:id="@+id/nav_share"
