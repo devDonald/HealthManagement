@@ -6,4 +6,10 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="about_us">About us message</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a risus sed nulla faucibus commodo. Donec iaculis pretium facilisis. Praesent rutrum varius arcu, sed viverra ipsum malesuada id. Suspendisse nec mauris eleifend, maximus elit et, venenatis quam. Duis at maximus nisi, a congue sapien. Curabitur facilisis at nisi vitae vulputate. Phasellus vel orci et massa scelerisque ultrices. Morbi eget ipsum porttitor arcu volutpat convallis. Pellentesque velit libero, interdum sed consequat at, eleifend et nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed convallis massa imperdiet, consectetur lectus sodales, finibus velit. Donec quis tortor vel quam porta hendrerit. Vivamus vitae consectetur orci, sed feugiat turpis.</string>
+
+
 </resources>

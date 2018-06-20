@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="donald.com.healthmanagement.Typhoid">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYPHOID FEVER"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:padding="6dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:background="#f9367e"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Causes"
+            android:textColor="#f72323"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <at.blogc.android.views.ExpandableTextView
+            android:id="@+id/expandableTextViewCauses"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum"
+            android:layout_below="@+id/tvCause"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:animation_duration="750"/>
+
+        <Button
+            android:id="@+id/btnCauses"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textSize="10dp"
+            android:layout_toEndOf="@id/expandableTextViewCauses"
+            android:background="@drawable/expand"
+            android:layout_toRightOf="@id/expandableTextViewCauses" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSigns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Signs and Syptoms"
+                android:textColor="#f72323"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+
+            <at.blogc.android.views.ExpandableTextView
+                android:id="@+id/expandableTextViewSign"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lorem_ipsum"
+                android:layout_below="@+id/tvSigns"
+                android:maxLines="1"
+                android:ellipsize="end"
+                app:animation_duration="750"/>
+
+            <Button
+                android:id="@+id/btnSigns"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:textSize="10dp"
+                android:layout_toEndOf="@id/expandableTextViewSign"
+                android:background="@drawable/expand"
+                android:layout_toRightOf="@id/expandableTextViewSign" />
+
+        </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvDiagnosis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Diagnosis"
+                        android:textColor="#f72323"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+
+                    <at.blogc.android.views.ExpandableTextView
+                        android:id="@+id/expandableTextViewDiagnosis"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lorem_ipsum"
+                        android:layout_below="@+id/tvDiagnosis"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        app:animation_duration="750"/>
+
+                    <Button
+                        android:id="@+id/btnDiagnosis"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:textSize="10dp"
+                        android:layout_toEndOf="@id/expandableTextViewDiagnosis"
+                        android:background="@drawable/expand"
+                        android:layout_toRightOf="@id/expandableTextViewDiagnosis" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTreatment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Treatment"
+                        android:textColor="#f72323"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+
+                    <at.blogc.android.views.ExpandableTextView
+                        android:id="@+id/expandableTextViewTreatment"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lorem_ipsum"
+                        android:layout_below="@+id/tvTreatment"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        app:animation_duration="750"/>
+
+                    <Button
+                        android:id="@+id/btnTreatment"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:textSize="10dp"
+                        android:layout_toEndOf="@id/expandableTextViewTreatment"
+                        android:background="@drawable/expand"
+                        android:layout_toRightOf="@id/expandableTextViewTreatment" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPrevention"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prevention"
+                        android:textColor="#f72323"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+
+                    <at.blogc.android.views.ExpandableTextView
+                        android:id="@+id/expandableTextViewPrevention"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lorem_ipsum"
+                        android:layout_below="@+id/tvPrevention"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        app:animation_duration="750"/>
+
+                    <Button
+                        android:id="@+id/btnPrevention"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:textSize="10dp"
+                        android:layout_toEndOf="@id/expandableTextViewPrevention"
+                        android:background="@drawable/expand"
+                        android:layout_toRightOf="@id/expandableTextViewPrevention" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
